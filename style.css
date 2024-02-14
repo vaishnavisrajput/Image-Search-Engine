@@ -32,7 +32,20 @@ body{
     outline: 0;
     border: 0;
     border-radius: 10px;
-    background-color: rgba(175, 173, 173, 0.836);
+    background-color: rgba(97, 96, 96, 0.836);
+}
+.search-field{
+    display: flex;
+    flex-direction: row;
+}
+#btn{
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+
 }
 .search-field #icon{
     font-size: 20px;
@@ -43,4 +56,15 @@ body{
     margin-top: 13px;
     margin-left: 10px;
     color: #e8e6e6ed;
+}
+#load-more-btn{
+    padding: 15px 10px; 
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: black;
+    color: #ffff;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
 }
