@@ -67,4 +67,21 @@ body{
     margin-top: 30px;
     cursor: pointer;
     display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 50px;
+}
+#img-section{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    grid-gap: 40px;
+}
+#img-section img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    
 }
