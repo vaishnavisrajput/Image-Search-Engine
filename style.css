@@ -85,3 +85,49 @@ body{
     border-radius: 5px;
     
 }
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px){
+    #img-section{
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+}
+@media (min-width: 468px) and (max-width: 668px){
+    #img-section{
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
+        margin-left: 30px;
+    }
+    .input-field{
+        width: 80%;
+        padding: 15px 40px;
+    }
+    .section{
+        width: 400px;
+    }
+    .header{
+        font-size: 40px;
+    }
+    .section p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 320px){
+    .section{
+        width: 300px;
+    }
+    .input-field{
+        width: 80%;
+        padding: 15px 40px;
+    }
+    .header{
+        font-size: 40px;
+    }
+    .section p{
+        font-size: 15px;
+    }
+    #img-section{
+        grid-template-columns: repeat(1, minmax(180px, 1fr));
+        margin-left: 30px;
+    }
+}
