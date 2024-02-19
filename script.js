@@ -42,3 +42,8 @@ loadMoreBtn.addEventListener("click", (e) =>{
     page++;
     searchImages();
 })
+inputText.addEventListener("keypress", function(e) {
+    if(e.key === "Enter"){
+        searchImages();
+    }
+})
